@@ -1,13 +1,93 @@
 body {
-  margin: 0;
+  /*margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;*/
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  
+
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.primaryNav{
+  
+  padding: 16px 32px;
+  background-color: #333;
+ 
+  
+}
+.primaryNav a:hover {
+  background-color: #ffffff40;
+
+}
+nav a {
+  margin-right: 16px;
+  color: #fcfcfc;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+nav.opt a {
+  margin-right: 16px;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/*nav a.active{
+  text-decoration: none;
+  font-weight: bold;
+}*/
+
+.home {
+  text-align: center;
+}
+
+.centered-image {
+  margin: -60px auto 5px; 
+  display: block;
+  width: 40%;
+    height: auto; 
+  
+   
+}
+
+.button-home {
+  background-color: #333;
+  color: white;
+  margin: -100px auto 130px;
+  display: block; 
+  padding: 16px 32px;
+  transition: 0.3s;
+  cursor: pointer;
+  border: none;
+
+}
+.button-home:hover {background-color: #33333395;}
+.button-backhome{background-color: #333;
+  color: white;
+  margin: -100px auto 130px;
+  display: block; 
+  padding: 16px 32px;
+  transition: 0.3s;
+  cursor: pointer;
+  border: none;
+
+}
+.center-text {
+  margin-top: -100px; 
+  color: #333;
+}
+
